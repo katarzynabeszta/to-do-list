@@ -1,0 +1,27 @@
+body {
+  background: #352f5b;
+}
+
+body .container {
+  max-width: 400px;
+}
+
+body .container input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+body .container .todos li {
+  background: #423a6f;
+}
+
+body .container .delete {
+  cursor: pointer;
+}
+
+body .container .filtered {
+  display: none !important;
+}
+/*# sourceMappingURL=style.css.map */
